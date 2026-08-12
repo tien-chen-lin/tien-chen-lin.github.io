@@ -105,18 +105,6 @@ Identify a physiological input, measure the state of the force-generating system
 </div>
 </div>
 
-<div class="section-card" markdown="1">
-### Cover art
-
-Three artistic directions created for the study — the polarizing neuron rendered against the actin-wave oscillator that selects its axon.
-
-<div class="cover-gallery" markdown="0">
-<figure><img src="{{ site.url }}{{ site.baseurl }}/images/cover-mono.jpg" alt="Cover artwork: a monochrome neuron over interference waves" loading="lazy"><figcaption>Interference waves</figcaption></figure>
-<figure><img src="{{ site.url }}{{ site.baseurl }}/images/cover-inkwash.jpg" alt="Cover artwork: an ink-wash rendering of a polarizing neuron" loading="lazy"><figcaption>Ink wash</figcaption></figure>
-<figure><img src="{{ site.url }}{{ site.baseurl }}/images/cover-ocean.jpg" alt="Cover artwork: neurites rendered as cresting ocean waves" loading="lazy"><figcaption>Actin wave</figcaption></figure>
-</div>
-</div>
-
 <div class="chip-container" markdown="0">
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Neuron&ndash;glia interfaces</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Cytoskeletal oscillators</a>

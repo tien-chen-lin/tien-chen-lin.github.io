@@ -1,8 +1,10 @@
-# darkbreaker0.github.io
+# tien-chen-lin.github.io
 
 Personal academic website of **Dr. Tien-Chen Lin** — cytoskeletal neurobiology and the mechanobiology of brain development.
 
-Live site: https://darkbreaker0.github.io
+Live site: https://tien-chen-lin.github.io
+
+> Research code lives separately at [github.com/darkbreaker0](https://github.com/darkbreaker0) — including the repositories cited in the Nature (2026) paper.
 
 ## Built with
 - [Jekyll](https://jekyllrb.com/) + Jekyll Scholar, on a customized fork of the

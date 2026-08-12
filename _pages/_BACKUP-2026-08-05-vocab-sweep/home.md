@@ -7,7 +7,7 @@ permalink: /
 
 <div class="chip-container" markdown="0">
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Neuron&ndash;glia interfaces</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Cytoskeletal oscillators</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Excitable cytoskeleton</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantitative live imaging</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Mechanotransduction</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Actin&ndash;microtubule control</a>

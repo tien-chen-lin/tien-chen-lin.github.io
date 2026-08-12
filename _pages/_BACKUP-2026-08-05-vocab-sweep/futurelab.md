@@ -5,7 +5,7 @@ sitemap: false
 permalink: /futurelab/
 ---
 
-I am applying for group-leader positions and am beginning to build a research group at the interface of **cell biology, neuroscience, and biophysics**. The lab will study **how neuron–glia interfaces tune cytoskeletal oscillators** to build, stabilize, and repair neural form — and whether those state transitions can be predicted and reset. We work across the full causal chain: biochemical reconstitution, acute optogenetic control in living cells, quantitative live imaging, sparse perturbation in tissue, and dynamical modelling.
+I am applying for group-leader positions and am beginning to build a research group at the interface of **cell biology, neuroscience, and biophysics**. The lab will study **how neuron–glia interfaces tune excitable cytoskeletal systems** to build, stabilize, and repair neural form — and whether those state transitions can be predicted and reset. We work across the full causal chain: biochemical reconstitution, acute optogenetic control in living cells, quantitative live imaging, sparse perturbation in tissue, and dynamical modelling.
 
 ### Who I am looking for
 

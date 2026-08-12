@@ -27,7 +27,7 @@ accent_color_dark: "#a78bfa"   # dark-mode accent (bright violet)
 dark_mode: true              # light/dark toggle in the navbar
 description: "Tien-Chen Lin — cytoskeletal neurobiology and the mechanobiology of brain development. Postdoctoral researcher (DZNE, Bradke Lab) developing an independent research program on how the cytoskeleton shapes the nervous system."
 baseurl: ""
-url: "https://darkbreaker0.github.io"
+url: "https://tien-chen-lin.github.io"
 
 # Google Analytics — paste your GA4 measurement ID, or leave blank
 analytics:

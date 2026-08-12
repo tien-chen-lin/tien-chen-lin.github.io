@@ -1,7 +1,6 @@
 ---
 title: "Code"
 layout: gridlay
-sitemap: false
 permalink: /code/
 ---
 

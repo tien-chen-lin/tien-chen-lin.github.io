@@ -1,7 +1,6 @@
 ---
 title: "CV"
 layout: gridlay
-sitemap: false
 permalink: /cv/
 ---
 
@@ -37,7 +36,7 @@ permalink: /cv/
 
 <div class="section-card" markdown="1">
 ### Research experience
-- **2017–present — Postdoctoral Researcher**, DZNE, Bonn (Bradke Lab). Mechanics of CNS neuronal polarization; the Arp2/3–actomyosin local-excitation/global-inhibition system; quantitative neurite-growth analysis (R / ImageJ).
+- **2017–present — Postdoctoral Researcher**, DZNE, Bonn (Bradke Lab). Mechanics of CNS neuronal polarization; the ARP2/3–actomyosin local-excitation/global-inhibition system; quantitative neurite-growth analysis (R / ImageJ).
 - **2014–2017 — Postdoctoral Researcher**, ZMBH, University of Heidelberg (Schiebel Lab). MOZART1 and the γ-tubulin small complex in *Candida albicans* and human cells.
 - **2009–2014 — Doctoral Researcher**, ZMBH, University of Heidelberg (Schiebel Lab). Phospho-regulation of γ-TuSC and its receptors; targeting of γ-tubulin complexes to microtubule organizing centers.
 </div>

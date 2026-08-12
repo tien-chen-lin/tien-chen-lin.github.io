@@ -41,12 +41,10 @@ nav_pages:
   - name: publications
   - name: code
     label: "Code"
+  - name: futurelab
+    label: "Future Group"
   - name: cv
     label: "CV"
-  - name: futurelab
-    label: "Future Lab"
-  - name: working-with-me
-    label: "Working with me"
   - name: contact
 
 # ============================================================

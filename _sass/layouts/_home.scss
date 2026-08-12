@@ -258,8 +258,8 @@
 .fil-title {
   font-family: 'Fraunces', Georgia, serif; font-weight: 600;
   font-variation-settings: 'SOFT' 0, 'WONK' 1, 'opsz' 144;
-  font-size: clamp(2.6rem, 7vw, 6rem); line-height: 0.98; letter-spacing: -0.02em;
-  max-width: 16ch; margin: 0 0 1.4rem; color: #fff;
+  font-size: clamp(1.95rem, 4.4vw, 3.7rem); line-height: 1.06; letter-spacing: -0.02em;
+  max-width: 21ch; margin: 0 0 1.4rem; color: #fff;
 }
 .fil-title em { font-style: italic; font-variation-settings: 'SOFT' 60, 'WONK' 1; color: #a78bfa; }
 .fil-lead { font-size: clamp(1.05rem, 1.6vw, 1.28rem); color: #c4c8d2; max-width: 52ch; margin: 0 0 1.1rem; }

@@ -1,6 +1,6 @@
 # News items shown on the home page sidebar (3 most recent) and on /allnews.
 # Each entry needs: date, headline
-- date: July 2026
+- date: 2026
   headline: "First-author paper “An intrinsic cytoskeletal oscillator establishes neuronal polarity” published in Nature (2026)."
 
 - date: 2023

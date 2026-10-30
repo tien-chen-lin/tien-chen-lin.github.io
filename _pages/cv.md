@@ -4,7 +4,7 @@ layout: gridlay
 permalink: /cv/
 ---
 
-## Curriculum Vitae
+<header class="page-intro"><p class="eyebrow">Experience, teaching &amp; supervision</p><h1>Curriculum vitae.</h1><p class="section-lead">Connecting molecular cytoskeletal assembly with neuronal development—and building the experimental and quantitative tools to test the mechanism.</p></header>
 
 <p><a class="btn-pill btn-pdf" href="{{ site.url }}{{ site.baseurl }}/{{ site.links.cv }}" target="_blank">Download full CV (PDF)</a></p>
 
@@ -36,8 +36,8 @@ permalink: /cv/
 
 <div class="section-card" markdown="1">
 ### Research experience
-- **2017–present — Postdoctoral Researcher**, DZNE, Bonn (Bradke Lab). Mechanics of CNS neuronal polarization; the ARP2/3–actomyosin local-excitation/global-inhibition system; quantitative neurite-growth analysis (R / ImageJ).
-- **2014–2017 — Postdoctoral Researcher**, ZMBH, University of Heidelberg (Schiebel Lab). MOZART1 and the γ-tubulin small complex in *Candida albicans* and human cells.
+- **2017–present — Postdoctoral Researcher**, DZNE, Bonn (Bradke Lab). Led the experimental development and quantitative analysis of the cytoskeletal oscillator study (*Nature*, 2026). Built R/ImageJ pipelines and multidisciplinary collaborations; with Andreas Husch, re-established local single-cell perfusion.
+- **2014–2017 — Postdoctoral Researcher**, ZMBH, University of Heidelberg (Schiebel Lab). First- and co-corresponding-author comparative review (*Trends Cell Biol.*, 2015); independently initiated the MOZART1 project, secured an EMBO Short-Term Fellowship, and established biochemical reconstitution of an active microtubule-nucleation template (*J. Cell Biol.*, 2016).
 - **2009–2014 — Doctoral Researcher**, ZMBH, University of Heidelberg (Schiebel Lab). Phospho-regulation of γ-TuSC and its receptors; targeting of γ-tubulin complexes to microtubule organizing centers.
 </div>
 
@@ -54,6 +54,7 @@ permalink: /cv/
 
 <div class="section-card" markdown="1">
 ### Invited talks (selected)
+- FAU Erlangen-Nürnberg (15 October 2026)
 - Microtubules in Neurons, Chiemsee (2023)
 - The Cytoskeleton of Neurons and Glia, webinar series (2023)
 - EMBO Workshop *Neural Development and Neurodegeneration*, Taipei (2022)
@@ -66,6 +67,7 @@ permalink: /cv/
 {% if site.data.people %}
 <div class="section-card">
 <h3>Student supervision</h3>
+<p>Supervised three M.Sc. projects or rotations from experimental planning through quantitative interpretation and presentation. The 2025 rotation combined live imaging, pharmacological perturbation, Fiji kymographs, and R analysis to study microtubule retrograde flow.</p>
 <ul>
 {% for student in site.data.people %}
 <li>{{ student.name }}, {{ student.location }} ({{ student.degree }}, {{ student.year }})</li>
@@ -76,7 +78,9 @@ permalink: /cv/
 
 <div class="section-card" markdown="1">
 ### Teaching & service
-- Coordinator & lecturer, M.Sc. "Molecular Cell Biology" module, University of Bonn (2020–2023): light-microscopy basics, live-cell imaging, and data visualization with R.
-- Associate Faculty Member, F1000 / Faculty Opinions (2019–present).
-- Professional development: EMBO Laboratory Leadership and Project Management for Group Leaders; advanced courses at CSHL and EMBL.
+- Coordinator, M.Sc. Molecular Cell Biology EM5 practical module, University of Bonn (2023–2025).
+- Teaching at Bonn: light-microscopy basics (2020, 2022), live-cell imaging (2022), and data visualization with R (2023).
+- Teaching at Heidelberg: M.Sc. cell-division practical course (2013) and cell-cycle checkpoint regulation lecture (2012).
+- Associate Faculty Member, H1 Connect (formerly F1000 / Faculty Opinions), since 2019.
+- Professional development: EMBO Laboratory Leadership for Group Leaders (2020), Project Management for Scientists (2021), and Negotiation for Scientists (2020).
 </div>

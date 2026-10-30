@@ -3,19 +3,21 @@
 // =============================================================
 
 :root {
-  // Accent — "Filament" violet (light mode: AA on light; injected from _config.yml)
-  --accent: #6a49c4;
-  --accent-hover: #5a3bb0;
-  --accent-light: rgba(106, 73, 196, 0.09);
-  --cyan: #14808f;
+  // Accent — botanical teal (light mode: AA on light; injected from _config.yml)
+  --accent: #1c655d;
+  --accent-hover: #164f49;
+  --accent-light: rgba(28, 101, 93, 0.08);
+  --cyan: #1c655d;
+  --ochre: #94651d;
+  --diagram-neutral: #8c9790;
 
-  // Light "instrument" palette — cool paper
-  --bg-primary: #f6f7f9;
-  --bg-secondary: #eef0f4;
-  --bg-card: #ffffff;
-  --text-primary: #15171c;
-  --text-secondary: #3f444f;
-  --text-muted: #6b7280;
+  // Warm paper and dark ink
+  --bg-primary: #f7f5ef;
+  --bg-secondary: #eeeee5;
+  --bg-card: #fbfaf6;
+  --text-primary: #202d2b;
+  --text-secondary: #4f5c59;
+  --text-muted: #65706a;
   --border-color: rgba(20, 22, 28, 0.12);
   --shadow-sm: 0 1px 3px rgba(20, 22, 28, 0.06);
   --shadow-md: 0 6px 18px rgba(20, 22, 28, 0.09);
@@ -23,7 +25,7 @@
   --shadow-navbar: 0 1px 0 rgba(20, 22, 28, 0.08);
 
   // Layout
-  --container-max: 1100px;
+  --container-max: 1180px;
   --container-padding: 1.5rem;
 
   // Spacing scale
@@ -50,19 +52,21 @@
   --transition-slow: 400ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-// Dark mode — "Filament" instrument dark
+// Dark mode — ink and muted mineral colors
 [data-bs-theme="dark"] {
-  --accent: #a78bfa;
-  --accent-hover: #bda6fc;
-  --accent-light: rgba(167, 139, 250, 0.14);
-  --cyan: #5fd0e6;
+  --accent: #91c9ba;
+  --accent-hover: #addbcd;
+  --accent-light: rgba(145, 201, 186, 0.12);
+  --cyan: #91c9ba;
+  --ochre: #ddb46e;
+  --diagram-neutral: #82978b;
 
-  --bg-primary: #0a0b0f;
-  --bg-secondary: #0e1016;
-  --bg-card: #11131b;
-  --text-primary: #ece9e1;
-  --text-secondary: #b9bdc8;
-  --text-muted: #8c92a0;
+  --bg-primary: #121b1a;
+  --bg-secondary: #1a2523;
+  --bg-card: #17211f;
+  --text-primary: #eceee6;
+  --text-secondary: #c3ccc5;
+  --text-muted: #a1b1a6;
   --border-color: rgba(255, 255, 255, 0.09);
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4);
   --shadow-md: 0 6px 18px rgba(0, 0, 0, 0.45);

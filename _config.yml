@@ -22,10 +22,10 @@ links:
 # ============================================================
 # STEP 3: Site Settings
 # ============================================================
-accent_color: "#6a49c4"        # light-mode accent (WCAG AA on light)
-accent_color_dark: "#a78bfa"   # dark-mode accent (bright violet)
+accent_color: "#1c655d"        # teal: selected axon / primary links
+accent_color_dark: "#91c9ba"   # teal on dark ink
 dark_mode: true              # light/dark toggle in the navbar
-description: "Tien-Chen Lin — cytoskeletal neurobiology and the mechanobiology of brain development. Postdoctoral researcher (DZNE, Bradke Lab) developing an independent research program on how the cytoskeleton shapes the nervous system."
+description: "Tien-Chen Lin — cell biologist and biochemist studying how developing neurons establish durable axonal and dendritic identities while their cytoskeleton remains dynamic. Postdoctoral researcher at DZNE Bonn."
 baseurl: ""
 url: "https://tien-chen-lin.github.io"
 
@@ -42,7 +42,7 @@ nav_pages:
   - name: code
     label: "Code"
   - name: futurelab
-    label: "Future Group"
+    label: "Group"
   - name: cv
     label: "CV"
   - name: contact

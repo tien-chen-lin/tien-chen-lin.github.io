@@ -1,6 +1,8 @@
 # tien-chen-lin.github.io
 
-Personal academic website of **Dr. Tien-Chen Lin** — cytoskeletal neurobiology and the mechanobiology of brain development.
+Personal academic website of **Dr. Tien-Chen Lin** — how developing neurons establish durable axonal and dendritic identities while their cytoskeleton remains dynamic.
+
+*Updated 30 October 2026: research content aligned with the October IMB plan and Constitution v0.5; visual design and documented independence/mentoring evidence revised. See [revision notes](docs/WEBSITE_UPDATE_2026-10-30.md).*
 
 Live site: https://tien-chen-lin.github.io
 

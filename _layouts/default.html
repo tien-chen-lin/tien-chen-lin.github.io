@@ -5,9 +5,11 @@
 
   <body>
 
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
     {% include header.html %}
 
-    <main class="site-container">
+    <main id="main-content" class="site-container" tabindex="-1">
       {{ content }}
     </main>
 

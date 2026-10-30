@@ -10,12 +10,9 @@
 
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link{% if page.url == '/' %} active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
-        </li>
         {% for nav in site.nav_pages %}
         <li class="nav-item">
-          <a class="nav-link{% if page.url contains nav.name %} active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/{{ nav.name }}">{% if nav.label %}{{ nav.label }}{% else %}{{ nav.name | capitalize }}{% endif %}</a>
+          <a {% if page.url contains nav.name %}aria-current="page" {% endif %}class="nav-link{% if page.url contains nav.name %} active{% endif %}" href="{{ site.url }}{{ site.baseurl }}/{{ nav.name }}/">{% if nav.label %}{{ nav.label }}{% else %}{{ nav.name | capitalize }}{% endif %}</a>
         </li>
         {% endfor %}
       </ul>
@@ -38,9 +35,9 @@
 <div class="search-modal">
 <div class="search-input-wrapper">
 <i class="fa-solid fa-magnifying-glass search-input-icon"></i>
-<input type="text" class="search-input" id="searchInput" placeholder="Search pages..." autocomplete="off">
+<input type="text" class="search-input" id="searchInput" placeholder="Search pages..." aria-label="Search pages" autocomplete="off">
 <kbd class="search-kbd">ESC</kbd>
 </div>
-<div class="search-results" id="searchResults"></div>
+<div class="search-results" id="searchResults" aria-live="polite"></div>
 </div>
 </div>

@@ -51,3 +51,11 @@ Retain Jekyll, Jekyll Scholar, existing URLs, and GitHub Pages deployment. Local
 ### Publication authorization — 30 October 2026
 
 The user subsequently authorized pushing the completed revision to the existing GitHub repository and its `source` branch. The local-only status above records the initial handoff. The pre-existing CV PDF modification is excluded from this website revision commit.
+
+### Media and profile restoration — 30 October 2026
+
+Restored the visibility lost during the initial redesign. Professional profiles (Google Scholar, ORCID, GitHub, LinkedIn, ResearchGate) now share one compact text-link component on the homepage biography and across site footers. The current hero, palette, typography, navigation structure, and research narrative are retained.
+
+All four retained schematic animations are grouped in a responsive two-column gallery after the main Research narrative. The previous single embedded animation is moved into this gallery rather than duplicated. A clearly dated 2022 NYCU lecture follows, credited as co-presented with Frank Bradke, using the existing click-to-load YouTube facade. The player styling now uses the site's teal palette; keyboard activation loads the lecture once. No video autoplays on page load. Captions describe schematics without asserting permanent axonal identity. Research section navigation and homepage/footer links expose the media.
+
+Restoration validation: local and production Jekyll builds passed; all rendered local links, media assets, and fragments resolved. Verified two gallery columns on desktop, one on mobile with no horizontal overflow, restored homepage/footer profile links, paused initial video state, keyboard-controlled local playback, and creation of the YouTube iframe through keyboard activation.

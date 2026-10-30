@@ -30,7 +30,9 @@ description: "Tien-Chen Lin studies how axonal identity becomes durable and can 
 <p>I am a cell biologist and biochemist trained in Taiwan and Germany. My work connects the assembly of cytoskeletal machinery with the behavior of developing neurons.</p>
 <p>I led the experimental development and quantitative analysis of the neuronal oscillator study, built specialist collaborations, and drafted the manuscript. My earlier work combined protein purification and biochemical reconstruction to explain microtubule nucleation.</p>
 <p>That combination shapes my approach: locate a causal difference in a living cell, then identify and test the molecular mechanism that explains it.</p>
-<div class="action-links"><a class="text-link" href="{{ '/cv/' | relative_url }}">Experience &amp; mentoring <span aria-hidden="true">→</span></a><a href="{{ '/code/' | relative_url }}">Open code &amp; tools <span aria-hidden="true">→</span></a></div></div>
+<div class="action-links"><a class="text-link" href="{{ '/cv/' | relative_url }}">Experience &amp; mentoring <span aria-hidden="true">→</span></a><a href="{{ '/code/' | relative_url }}">Open code &amp; tools <span aria-hidden="true">→</span></a><a href="{{ '/research/#media' | relative_url }}">Animations &amp; recorded talk <span aria-hidden="true">→</span></a></div>
+{% include profile-links.html %}
+</div>
 </section>
 
 <section class="editorial-section group-invitation" aria-labelledby="group-title">

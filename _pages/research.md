@@ -7,7 +7,7 @@ description: "An independent research program on developmental stabilization and
 
 <header class="page-intro" markdown="0"><p class="eyebrow">Research program</p><h1>How cytoskeletal dynamics establish<br>and preserve neuronal compartments.</h1><p class="section-lead">Neurons retain distinct axonal and dendritic compartments while their cytoskeleton continuously reorganizes. How does a transient growth advantage become a durable identity—and when can that identity change?</p></header>
 
-<nav markdown="0" class="section-nav" aria-label="Research sections"><a href="#foundation">Published foundation</a><a href="#questions">Independent questions</a><a href="#approach">Experimental strategy</a><a href="#horizon">Longer-term direction</a></nav>
+<nav markdown="0" class="section-nav" aria-label="Research sections"><a href="#foundation">Published foundation</a><a href="#questions">Independent questions</a><a href="#approach">Experimental strategy</a><a href="#horizon">Longer-term direction</a><a href="#media">Animations &amp; talk</a></nav>
 
 <section class="editorial-section" id="foundation">
 <div class="section-heading" markdown="0"><p class="eyebrow">The foundation · Nature 2026</p><h2>An oscillator<br>helps select an axon.</h2></div>
@@ -20,7 +20,7 @@ The study explains how recurrent dynamics contribute to **initial axon selection
 
 [Read the Nature paper →](https://rdcu.be/fsRqy) · [Explore the analysis code →]({{ '/code/' | relative_url }})
 
-<figure class="banner-frame" markdown="0"><video controls loop muted playsinline preload="none" poster="{{ '/images/poster-mechanism.jpg' | relative_url }}"><source src="{{ '/images/arp3-mechanism.mp4' | relative_url }}" type="video/mp4">Your browser does not support embedded video. <a href="{{ '/images/arp3-mechanism.mp4' | relative_url }}">Download the schematic animation.</a></video><figcaption class="banner-caption">Published foundation, shown schematically: somatic actin organization and actomyosin activity coordinate local growth and retraction. Animation, not microscopy data.</figcaption></figure>
+[Explore the mechanism animations →](#media)
 </div>
 </section>
 
@@ -69,5 +69,9 @@ This training provides a route from a neuronal phenotype to a defined molecular 
 [J. Cell Biol. 2016](https://doi.org/10.1083/jcb.201606092) · [eLife 2014](https://doi.org/10.7554/eLife.02208) · [All publications →]({{ '/publications/' | relative_url }})
 </div>
 </section>
+
+<div markdown="0">
+{% include research-media.html %}
+</div>
 
 <p class="page-note">Public research overview · Updated October 2026</p>

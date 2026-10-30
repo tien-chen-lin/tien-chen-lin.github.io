@@ -118,10 +118,31 @@ h2.eyebrow::after { display: none; }
 .site-footer h5 { font-family: 'Hanken Grotesk', sans-serif; font-size: .75rem; font-weight: 600; }
 .site-footer p { font-size: .8rem; }
 body::before { display: none; }
+.professional-links { margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border-color); }
+.professional-links ul { display: flex; flex-wrap: wrap; gap: .35rem 1.2rem; padding: 0; margin: 0; list-style: none; }
+.professional-links li, .professional-links a { font-size: .76rem; line-height: 1.9; }
+.footer-profiles { max-width: var(--container-max); margin: 1.5rem auto 0; padding: 0 var(--container-padding); }
+.footer-profiles .professional-links { margin: 0; }
+.research-media { padding: 4rem 0; border-bottom: 1px solid var(--border-color); scroll-margin-top: 6rem; }
+.media-intro { display: grid; grid-template-columns: 1fr 1.65fr; gap: 4rem; margin-bottom: 2rem; }
+.media-intro > p { margin: 0; align-self: center; }
+.media-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2.5rem 2rem; }
+.media-figure { margin: 0; min-width: 0; scroll-margin-top: 6rem; }
+.media-heading { min-height: 5.2rem; }
+.media-heading .figure-label { margin-bottom: .4rem; }
+.media-heading h3 { font-size: 1.3rem; margin: 0 0 1rem; }
+.media-figure video { width: 100%; display: block; aspect-ratio: 16 / 9; object-fit: contain; background: #101817; border: 1px solid var(--border-color); border-radius: 2px; }
+.media-figure figcaption, .recorded-talk figcaption { font-size: .78rem; line-height: 1.7; color: var(--text-secondary); padding-top: .9rem; }
+.recorded-talk { margin: 0; }
+.recorded-talk .yt-embed { border: 1px solid var(--border-color); border-radius: 2px; }
+.yt-embed__play { background: var(--accent); width: 60px; height: 60px; box-shadow: none; }
+.yt-embed__play::after { border-left-color: var(--bg-primary); border-width: 10px 0 10px 17px; }
+.yt-embed:hover .yt-embed__play, .yt-embed:focus-visible .yt-embed__play { background: var(--accent); transform: scale(1.05); }
 @media (max-width: 1000px) {
   .identity-hero { gap: 2rem; }
   .identity-hero h1 { font-size: 3.1rem; }
   .editorial-section, .investigator-section { gap: 2.5rem; }
+  .media-intro { gap: 2.5rem; }
 }
 @media (max-width: 767px) {
   .identity-hero { grid-template-columns: 1fr; padding: 1.8rem 0 2.3rem; gap: 2rem; }
@@ -139,6 +160,10 @@ body::before { display: none; }
   .page-intro { padding-top: 1.8rem; }
   .section-nav { gap: .75rem 1.3rem; }
   .action-links { gap: 1rem; }
+  .research-media { padding: 2.8rem 0; }
+  .media-intro, .media-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+  .media-grid { gap: 2rem; }
+  .media-heading { min-height: 0; }
 }
 @media (max-width: 380px) {
   .research-sequence { grid-template-columns: 1fr; }

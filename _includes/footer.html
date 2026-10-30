@@ -12,18 +12,18 @@
       <h5>Contact</h5>
       <p>
         <a href="mailto:{{ site.email }}"><i class="fa-solid fa-envelope"></i> {{ site.email }}</a><br>
-        {% if site.links.github and site.links.github != "" %}<a href="{{ site.links.github }}"><i class="fa-brands fa-github"></i> GitHub</a><br>{% endif %}
       </p>
     </div>
     <div>
       <h5>Explore</h5>
       <p>
-        {% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a><br>{% endif %}
         <a href="{{ '/research/' | relative_url }}">Research program</a><br>
+        <a href="{{ '/research/#media' | relative_url }}">Animations &amp; recorded talk</a><br>
         <a href="{{ '/futurelab/' | relative_url }}">Independent group &amp; mentoring</a>
       </p>
     </div>
   </div>
+  <div class="footer-profiles">{% include profile-links.html %}</div>
   <div class="footer-grid">
     <div class="footer-copyright" style="grid-column: 1 / -1;">
       &copy; {{ "now" | date: "%Y" }} {{ site.name | escape }}
@@ -44,8 +44,13 @@
 <script>
   // Click-to-load YouTube facade — no third-party iframe/cookies until play.
   document.querySelectorAll('.yt-embed').forEach(function (el) {
+    var loaded = false;
     function load() {
+      if (loaded) return;
+      loaded = true;
       var id = el.getAttribute('data-ytid');
+      el.removeAttribute('role');
+      el.removeAttribute('tabindex');
       el.innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + id +
         '?autoplay=1&rel=0" title="Recorded talk" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>';
     }

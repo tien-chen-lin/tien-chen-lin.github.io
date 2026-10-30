@@ -6,7 +6,7 @@ permalink: /cv/
 
 <header class="page-intro"><p class="eyebrow">Experience, teaching &amp; supervision</p><h1>Curriculum vitae.</h1><p class="section-lead">Connecting molecular cytoskeletal assembly with neuronal development—and building the experimental and quantitative tools to test the mechanism.</p></header>
 
-<p><a class="btn-pill btn-pdf" href="{{ site.url }}{{ site.baseurl }}/{{ site.links.cv }}" target="_blank">Download full CV (PDF)</a></p>
+<p><a class="btn-pill btn-pdf" href="{{ site.url }}{{ site.baseurl }}/{{ site.links.cv }}" target="_blank">Download CV (PDF, October 2026)</a></p>
 
 <div class="section-card">
 <div class="pi-card">
